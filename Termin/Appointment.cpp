@@ -1,7 +1,3 @@
-//
-// Created by bebdor on 22.09.23.
-//
-
 #include "Appointment.h"
 
 Appointment::Appointment(int h, int m, int d, int mo, int y, string s){

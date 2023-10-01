@@ -1,7 +1,3 @@
-//
-// Created by bebdor on 22.09.23.
-//
-
 #ifndef OOP_MAIN_H
 #define OOP_MAIN_H
 

@@ -1,10 +1,10 @@
-#include <iostream>
 #include "Time.h"
 
 Time::Time(int h, int m) : hour(h), minute(m)
 {
 
-}
+};
+
 
 void Time::setStart(int h, int m) {
 

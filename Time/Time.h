@@ -1,7 +1,3 @@
-//
-// Created by bebdor on 22.09.23.
-//
-
 #ifndef OOP_TIME_H
 #define OOP_TIME_H
 
