@@ -13,6 +13,8 @@ int main() {
         case 2:
             Termin();
             break;
+        case 3:
+            CBasis();
     }
     return 0;
 }

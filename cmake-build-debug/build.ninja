@@ -79,6 +79,30 @@ build CMakeFiles/OOP.dir/utils/Aufgabe_5.4.cpp.o: CXX_COMPILER__OOP_unscanned_De
   OBJECT_DIR = CMakeFiles/OOP.dir
   OBJECT_FILE_DIR = CMakeFiles/OOP.dir/utils
 
+build CMakeFiles/OOP.dir/CBasis/CRechteck/CRechteck.cpp.o: CXX_COMPILER__OOP_unscanned_Debug /home/bebdor/CLionProjects/OOP/CBasis/CRechteck/CRechteck.cpp || cmake_object_order_depends_target_OOP
+  DEP_FILE = CMakeFiles/OOP.dir/CBasis/CRechteck/CRechteck.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/OOP.dir
+  OBJECT_FILE_DIR = CMakeFiles/OOP.dir/CBasis/CRechteck
+
+build CMakeFiles/OOP.dir/utils/Aufgabe_5.5.cpp.o: CXX_COMPILER__OOP_unscanned_Debug /home/bebdor/CLionProjects/OOP/utils/Aufgabe_5.5.cpp || cmake_object_order_depends_target_OOP
+  DEP_FILE = CMakeFiles/OOP.dir/utils/Aufgabe_5.5.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/OOP.dir
+  OBJECT_FILE_DIR = CMakeFiles/OOP.dir/utils
+
+build CMakeFiles/OOP.dir/CBasis/CDreieck/CDreieck.cpp.o: CXX_COMPILER__OOP_unscanned_Debug /home/bebdor/CLionProjects/OOP/CBasis/CDreieck/CDreieck.cpp || cmake_object_order_depends_target_OOP
+  DEP_FILE = CMakeFiles/OOP.dir/CBasis/CDreieck/CDreieck.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/OOP.dir
+  OBJECT_FILE_DIR = CMakeFiles/OOP.dir/CBasis/CDreieck
+
+build CMakeFiles/OOP.dir/CBasis/CKreis/CKreis.cpp.o: CXX_COMPILER__OOP_unscanned_Debug /home/bebdor/CLionProjects/OOP/CBasis/CKreis/CKreis.cpp || cmake_object_order_depends_target_OOP
+  DEP_FILE = CMakeFiles/OOP.dir/CBasis/CKreis/CKreis.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/OOP.dir
+  OBJECT_FILE_DIR = CMakeFiles/OOP.dir/CBasis/CKreis
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target OOP
@@ -87,7 +111,7 @@ build CMakeFiles/OOP.dir/utils/Aufgabe_5.4.cpp.o: CXX_COMPILER__OOP_unscanned_De
 #############################################
 # Link the executable OOP
 
-build OOP: CXX_EXECUTABLE_LINKER__OOP_Debug CMakeFiles/OOP.dir/main.cpp.o CMakeFiles/OOP.dir/Time/Time.cpp.o CMakeFiles/OOP.dir/Termin/Appointment.cpp.o CMakeFiles/OOP.dir/utils/Aufgabe_5.3.cpp.o CMakeFiles/OOP.dir/utils/Aufgabe_5.4.cpp.o
+build OOP: CXX_EXECUTABLE_LINKER__OOP_Debug CMakeFiles/OOP.dir/main.cpp.o CMakeFiles/OOP.dir/Time/Time.cpp.o CMakeFiles/OOP.dir/Termin/Appointment.cpp.o CMakeFiles/OOP.dir/utils/Aufgabe_5.3.cpp.o CMakeFiles/OOP.dir/utils/Aufgabe_5.4.cpp.o CMakeFiles/OOP.dir/CBasis/CRechteck/CRechteck.cpp.o CMakeFiles/OOP.dir/utils/Aufgabe_5.5.cpp.o CMakeFiles/OOP.dir/CBasis/CDreieck/CDreieck.cpp.o CMakeFiles/OOP.dir/CBasis/CKreis/CKreis.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/OOP.dir
   POST_BUILD = :

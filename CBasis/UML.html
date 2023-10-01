@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+<h2>UML Diagramm</h2>
+<table style="width:50%">
+    <tr>
+        <th><i>CBasisForm {abstract}</i></th>
+    </tr>
+    <tr>
+        <td>+Umfang():float <br> +Flaeche():float</td>
+    </tr>
+</table>
+<br>
+<table style="width:30%">
+    <tr>
+        <th>CRechteck</th>
+    </tr>
+    <tr>
+        <td>-breite:float, -hoehe:float <br> +Umfang():float, +Flaeche():float <br> +setBreite(b:float), +setHoehe(h:float)</td>
+    </tr>
+</table>
+<br>
+<table style="width:30%">
+    <tr>
+        <th>CKreis</th>
+    </tr>
+    <tr>
+        <td>-radius:float <br> +Umfang():float, +Flaeche():float <br> +setRadius(r:float)</td>
+    </tr>
+</table>
+<br>
+<table style="width:30%">
+    <tr>
+        <th>CDreieck</th>
+    </tr>
+    <tr>
+        <td>-a:float,<br> -b:float,<br> -c:float <br> +Umfang():float, <br>+Flaeche():float <br> +setA(a:float), <br>+setB(b:float), <br>+setC(c:float)</td>
+    </tr>
+</table>
+</body>
+</html>

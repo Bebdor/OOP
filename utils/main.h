@@ -7,6 +7,7 @@
 #include <string>
 #include <iomanip>
 #include <sstream>
+#include <valarray>
 using namespace std;
 
 
@@ -17,6 +18,14 @@ public:
     }
 };
 
+class InvalidInputException : public exception {
+public:
+    const char * what() const throw() {
+        return "Invalid input";
+    }
+};
+
 
 int navi();
 int Termin();
+void CBasis();
